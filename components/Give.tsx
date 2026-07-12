@@ -164,9 +164,33 @@ export default function Give() {
             We invite individuals, foundations, corporations, and community partners to
             join us in bringing this vision to life.
           </p>
-          <a href="#contact" className="btn-primary inline-block">
-            Get in Touch
+
+          {/* Fiscal sponsor notice */}
+          <div className="bg-navy-900 border border-gold-500/30 rounded-sm max-w-2xl mx-auto p-6 mb-8 text-left">
+            <p className="text-gold-400 text-xs font-semibold uppercase tracking-widest mb-2">
+              A Note on Donations
+            </p>
+            <p className="text-white/70 text-sm leading-relaxed">
+              Online donations are processed through the{" "}
+              <strong className="text-white">Free Kalmykia Foundation</strong>, a U.S.
+              registered 501(c)(3) nonprofit and trusted partner of the Diluv Khutugtu
+              Foundation. This arrangement allows U.S. donors to make fully tax-deductible
+              gifts while we formalize our own U.S. charitable registration. All funds
+              contributed are directed to the Cultural Center project in Uliastai.
+            </p>
+          </div>
+
+          <a
+            href="https://www.paypal.com/US/fundraiser/charity/4897134"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-primary inline-block"
+          >
+            Donate Now
           </a>
+          <p className="text-white/30 text-xs mt-4">
+            Processed securely via PayPal · Tax-deductible in the U.S. through the Free Kalmykia Foundation 501(c)(3)
+          </p>
         </div>
       </div>
     </section>

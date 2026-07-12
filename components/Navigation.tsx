@@ -63,7 +63,9 @@ export default function Navigation() {
             </a>
           ))}
           <a
-            href="#give"
+            href="https://www.paypal.com/US/fundraiser/charity/4897134"
+            target="_blank"
+            rel="noopener noreferrer"
             className="ml-4 bg-gold-500 text-navy-950 text-xs font-bold uppercase tracking-widest px-6 py-2.5 hover:bg-gold-400 transition-colors duration-200"
           >
             Donate
@@ -110,7 +112,9 @@ export default function Navigation() {
             </a>
           ))}
           <a
-            href="#give"
+            href="https://www.paypal.com/US/fundraiser/charity/4897134"
+            target="_blank"
+            rel="noopener noreferrer"
             onClick={() => setMenuOpen(false)}
             className="mt-2 bg-gold-500 text-navy-950 text-sm font-bold uppercase tracking-widest px-6 py-3 text-center hover:bg-gold-400 transition-colors"
           >

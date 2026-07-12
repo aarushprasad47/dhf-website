@@ -36,9 +36,9 @@ export default function Hero() {
           </p>
 
           <h1 className="font-display text-5xl md:text-6xl lg:text-7xl text-white leading-[1.05] mb-8">
-            Where Culture
+            Legacy Without
             <br />
-            <em className="text-gold-400 not-italic">Lives On</em>
+            <em className="text-gold-400 not-italic">Borders</em>
           </h1>
 
           <p className="text-white/70 text-lg md:text-xl leading-relaxed mb-10 max-w-xl">
@@ -63,8 +63,13 @@ export default function Hero() {
           </div>
 
           <div className="flex flex-wrap gap-4">
-            <a href="#give" className="btn-primary">
-              Support the Project
+            <a
+              href="https://www.paypal.com/US/fundraiser/charity/4897134"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary"
+            >
+              Donate Now
             </a>
             <a href="#project" className="btn-outline">
               Learn More

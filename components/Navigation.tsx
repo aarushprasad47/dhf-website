@@ -3,12 +3,13 @@
 import { useState, useEffect } from "react";
 
 const navLinks = [
-  { href: "#about", label: "About" },
-  { href: "#project", label: "The Project" },
-  { href: "#programs", label: "Programs" },
-  { href: "#impact", label: "Impact" },
-  { href: "#give", label: "Give" },
-  { href: "#contact", label: "Contact" },
+  { href: "/about", label: "About DHF" },
+  { href: "/#need", label: "The Project" },
+  { href: "/#programs", label: "Programs" },
+  { href: "/#budget", label: "Budget" },
+  { href: "/#impact", label: "Impact" },
+  { href: "/#give", label: "Give" },
+  { href: "/#contact", label: "Contact" },
 ];
 
 export default function Navigation() {
@@ -31,7 +32,7 @@ export default function Navigation() {
     >
       <div className="max-w-7xl mx-auto px-6 md:px-12 flex items-center justify-between h-20">
         {/* Logo */}
-        <a href="#" className="flex items-center gap-3 group">
+        <a href="/" className="flex items-center gap-3 group">
           <div className="w-10 h-10 border-2 border-gold-500 flex items-center justify-center shrink-0">
             <span className="text-gold-500 font-display font-bold text-sm leading-none">
               DHF
@@ -39,10 +40,10 @@ export default function Navigation() {
           </div>
           <div className="hidden sm:block">
             <p className="text-white font-display text-sm font-semibold leading-tight">
-              Diluv Khutugtu
+              Uliastai Cultural Center
             </p>
             <p className="text-gold-400 text-xs tracking-widest uppercase font-light">
-              Foundation
+              A Diluv Khutugtu Foundation Campaign
             </p>
           </div>
         </a>
@@ -54,7 +55,7 @@ export default function Navigation() {
               key={link.href}
               href={link.href}
               className={`text-xs font-semibold uppercase tracking-widest transition-colors duration-200 ${
-                link.href === "#give"
+                link.href === "/#give"
                   ? "text-gold-400 hover:text-gold-300"
                   : "text-white/70 hover:text-white"
               }`}

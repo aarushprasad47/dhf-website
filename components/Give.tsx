@@ -172,11 +172,12 @@ export default function Give() {
             </p>
             <p className="text-white/70 text-sm leading-relaxed">
               Online donations are processed through the{" "}
-              <strong className="text-white">Free Kalmykia Foundation</strong>, a U.S.
-              registered 501(c)(3) nonprofit and trusted partner of the Diluv Khutugtu
-              Foundation. This arrangement allows U.S. donors to make fully tax-deductible
-              gifts while we formalize our own U.S. charitable registration. All funds
-              contributed are directed to the Cultural Center project in Uliastai.
+              <strong className="text-white">Kalmyk Heritage Center</strong>, Brooklyn,
+              New York — a U.S. registered 501(c)(3) nonprofit and trusted fiscal
+              sponsor of the Diluv Khutugtu Foundation. This arrangement allows U.S.
+              donors to make fully tax-deductible gifts while we formalize our own U.S.
+              charitable registration. All funds contributed are directed to the
+              Cultural Center project in Uliastai.
             </p>
           </div>
 
@@ -189,7 +190,7 @@ export default function Give() {
             Donate Now
           </a>
           <p className="text-white/30 text-xs mt-4">
-            Processed securely via PayPal · Tax-deductible in the U.S. through the Free Kalmykia Foundation 501(c)(3)
+            Processed securely via PayPal · Tax-deductible in the U.S. through the Kalmyk Heritage Center 501(c)(3)
           </p>
         </div>
       </div>

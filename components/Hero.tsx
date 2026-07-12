@@ -31,6 +31,16 @@ export default function Hero() {
       <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 lg:px-20 py-32 grid lg:grid-cols-2 gap-16 items-center">
         {/* Left — text content */}
         <div>
+          <a
+            href="https://dhf.mn"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 text-white/60 text-xs font-semibold uppercase tracking-[0.2em] mb-6 border border-white/20 rounded-full px-4 py-1.5 hover:border-gold-400 hover:text-gold-300 transition-colors"
+          >
+            A Campaign of the Diluv Khutugtu Foundation
+            <span className="text-gold-500">↗</span>
+          </a>
+
           <p className="text-gold-400 text-xs font-semibold uppercase tracking-[0.25em] mb-6">
             Uliastai · Zavkhan Province · Mongolia
           </p>
@@ -71,7 +81,7 @@ export default function Hero() {
             >
               Donate Now
             </a>
-            <a href="#project" className="btn-outline">
+            <a href="#need" className="btn-outline">
               Learn More
             </a>
           </div>

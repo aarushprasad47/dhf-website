@@ -16,19 +16,26 @@ export default function Footer() {
               </div>
               <div>
                 <p className="text-white font-display font-semibold leading-tight">
-                  Diluv Khutugtu Foundation
+                  Uliastai Cultural Center Campaign
                 </p>
                 <p className="text-gold-400 text-xs tracking-widest uppercase mt-0.5">
-                  Est. 2006 · Mongolia
+                  A Diluv Khutugtu Foundation Initiative
                 </p>
               </div>
             </div>
             <p className="text-white/50 text-sm leading-relaxed max-w-sm">
-              Promoting knowledge grounded in Buddhist wisdom and advancing secular
-              ethics, education, and the cultivation of human values across Mongolia and
-              beyond.
+              This campaign is led by the Diluv Khutugtu Foundation (DHF), which
+              promotes knowledge grounded in Buddhist wisdom and advances secular
+              ethics, education, and community development across Mongolia and beyond.
             </p>
-            <div className="mt-6 flex gap-3">
+            <div className="mt-6 flex flex-wrap gap-3">
+              <a
+                href="/about"
+                className="text-gold-400 text-xs uppercase tracking-widest hover:text-gold-300 transition-colors"
+              >
+                About DHF
+              </a>
+              <span className="text-white/20">·</span>
               <a
                 href="mailto:info@dhf.mn"
                 className="text-gold-400 text-xs uppercase tracking-widest hover:text-gold-300 transition-colors"
@@ -54,12 +61,13 @@ export default function Footer() {
             </p>
             <ul className="space-y-3">
               {[
-                { href: "#about", label: "About the Foundation" },
-                { href: "#project", label: "The Cultural Center" },
-                { href: "#programs", label: "Programs" },
-                { href: "#impact", label: "Impact Goals" },
-                { href: "#give", label: "How to Give" },
-                { href: "#contact", label: "Contact Us" },
+                { href: "/about", label: "About the Foundation" },
+                { href: "/#need", label: "The Cultural Center" },
+                { href: "/#programs", label: "Programs" },
+                { href: "/#budget", label: "Budget & Timeline" },
+                { href: "/#impact", label: "Impact Goals" },
+                { href: "/#give", label: "How to Give" },
+                { href: "/#contact", label: "Contact Us" },
               ].map((link) => (
                 <li key={link.href}>
                   <a

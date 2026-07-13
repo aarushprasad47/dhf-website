@@ -26,11 +26,20 @@ export default function Give() {
             <br />
             <span className="text-gold-400">Something Lasting</span>
           </h2>
-          <p className="text-white/70 text-lg leading-relaxed">
+          <p className="text-white/70 text-lg leading-relaxed mb-8">
             Your support will help transform a historic public building into a lasting
             community resource where cultural traditions can be preserved, shared, and
             passed to future generations.
           </p>
+          <a
+            href="/donor-prospectus.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 text-gold-400 text-sm font-semibold border-b-2 border-gold-500 pb-1 hover:text-gold-300 transition-colors"
+          >
+            Download the Donor Prospectus (PDF)
+            <span className="text-gold-500">↓</span>
+          </a>
         </div>
 
         {/* Giving pathways */}
@@ -95,7 +104,7 @@ export default function Give() {
           ))}
         </div>
 
-        {/* Giving pathways — legal structure */}
+        {/* Giving pathways: legal structure */}
         <div className="bg-navy-900 border border-gold-500/20 p-10 md:p-14 mb-20">
           <p className="text-gold-400 text-xs font-semibold uppercase tracking-widest mb-6">
             Charitable Giving Structure
@@ -108,7 +117,7 @@ export default function Give() {
               },
               {
                 title: "U.S. Tax-Deductible Gifts",
-                desc: "American donors may give through our U.S. fiscal sponsor partner — the Kalmyk Heritage Center, Brooklyn, New York — for tax-deductible contributions via 501(c)(3) status.",
+                desc: "American donors may give through our U.S. fiscal sponsor partner, the Kalmyk Heritage Center, Brooklyn, New York, for tax-deductible contributions via 501(c)(3) status.",
               },
               {
                 title: "Institutional & Foundation Gifts",
@@ -173,7 +182,7 @@ export default function Give() {
             <p className="text-white/70 text-sm leading-relaxed">
               Online donations are processed through the{" "}
               <strong className="text-white">Kalmyk Heritage Center</strong>, Brooklyn,
-              New York — a U.S. registered 501(c)(3) nonprofit and trusted fiscal
+              New York, a U.S. registered 501(c)(3) nonprofit and trusted fiscal
               sponsor of the Diluv Khutugtu Foundation. This arrangement allows U.S.
               donors to make fully tax-deductible gifts while we formalize our own U.S.
               charitable registration. All funds contributed are directed to the
@@ -182,7 +191,7 @@ export default function Give() {
           </div>
 
           <a
-            href="https://www.paypal.com/US/fundraiser/charity/4897134"
+            href="https://dhf.mn/give-donor/"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary inline-block"
@@ -190,7 +199,7 @@ export default function Give() {
             Donate Now
           </a>
           <p className="text-white/30 text-xs mt-4">
-            Processed securely via PayPal · Tax-deductible in the U.S. through the Kalmyk Heritage Center 501(c)(3)
+            Processed securely via dhf.mn · Tax-deductible in the U.S. through the Kalmyk Heritage Center 501(c)(3)
           </p>
         </div>
       </div>

@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Uliastai Cultural Center Campaign | A Diluv Khutugtu Foundation Initiative",
   description:
-    "A $2.6M campaign to restore a historic theater in Uliastai, Zavkhan Province, Mongolia into a Cultural Creative and Community Exchange Center — led by the Diluv Khutugtu Foundation (DHF).",
+    "A $2.6M campaign to restore a historic theater in Uliastai, Zavkhan Province, Mongolia into a Cultural Creative and Community Exchange Center, led by the Diluv Khutugtu Foundation (DHF).",
   keywords: [
     "Diluv Khutugtu Foundation",
     "DHF",

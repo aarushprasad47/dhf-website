@@ -36,13 +36,6 @@ const programOverview = [
   },
 ];
 
-const materials = [
-  { name: "Local Stone", desc: "Durable, timeless, and natural." },
-  { name: "Wood Accents", desc: "Warmth and connection to nature." },
-  { name: "Earth Tones", desc: "Inspired by the Mongolian landscape." },
-  { name: "Accent Colors", desc: "Traditional patterns and cultural identity." },
-];
-
 export default function Concept() {
   return (
     <section id="concept" className="bg-white py-24 md:py-32">
@@ -57,10 +50,19 @@ export default function Concept() {
           </h2>
           <p className="section-body">
             The restoration plan transforms the historic theater into a multi-functional
-            cultural creative and community exchange center — reopening its 500-seat
+            cultural creative and community exchange center, reopening its 500-seat
             performance hall alongside new education, wellness, and public spaces, all
             organized around four guiding design principles.
           </p>
+        </div>
+
+        {/* Concept rendering */}
+        <div className="mb-20 border border-navy-100">
+          <img
+            src="/concept-sketch.png"
+            alt="Concept sketch of the Uliastai Cultural Creative and Community Exchange Center, showing the site plan, main entrance perspective, and interior spaces"
+            className="w-full h-auto"
+          />
         </div>
 
         {/* Design principles */}
@@ -90,21 +92,6 @@ export default function Concept() {
                     </li>
                   ))}
                 </ul>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        {/* Materials */}
-        <div className="bg-navy-950 p-10 md:p-16">
-          <p className="text-gold-400 text-xs font-semibold uppercase tracking-[0.2em] mb-8">
-            Material & Color Palette
-          </p>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
-            {materials.map((m) => (
-              <div key={m.name} className="border-t border-gold-500/40 pt-6">
-                <p className="text-gold-400 font-display text-xl font-semibold mb-2">{m.name}</p>
-                <p className="text-white/70 text-sm leading-relaxed">{m.desc}</p>
               </div>
             ))}
           </div>

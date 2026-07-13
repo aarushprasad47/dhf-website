@@ -1,6 +1,13 @@
 export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden bg-navy-950">
+      {/* Background photo */}
+      <img
+        src="/old-theatre.png"
+        alt="The historic Soviet-era theater in Uliastai, Mongolia, being restored into the Cultural Creative and Community Exchange Center"
+        className="absolute inset-0 w-full h-full object-cover opacity-30"
+      />
+
       {/* Background pattern */}
       <div
         className="absolute inset-0 opacity-10"
@@ -12,6 +19,9 @@ export default function Hero() {
           `,
         }}
       />
+
+      {/* Gradient overlay for legibility */}
+      <div className="absolute inset-0 bg-gradient-to-b from-navy-950/70 via-navy-950/80 to-navy-950" />
 
       {/* Geometric ornament – top right */}
       <div className="absolute top-0 right-0 w-72 h-72 opacity-5">
@@ -29,18 +39,8 @@ export default function Hero() {
       <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-gold-500 to-transparent" />
 
       <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 lg:px-20 py-32 grid lg:grid-cols-2 gap-16 items-center">
-        {/* Left — text content */}
+        {/* Left: text content */}
         <div>
-          <a
-            href="https://dhf.mn"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 text-white/60 text-xs font-semibold uppercase tracking-[0.2em] mb-6 border border-white/20 rounded-full px-4 py-1.5 hover:border-gold-400 hover:text-gold-300 transition-colors"
-          >
-            A Campaign of the Diluv Khutugtu Foundation
-            <span className="text-gold-500">↗</span>
-          </a>
-
           <p className="text-gold-400 text-xs font-semibold uppercase tracking-[0.25em] mb-6">
             Uliastai · Zavkhan Province · Mongolia
           </p>
@@ -53,7 +53,7 @@ export default function Hero() {
 
           <p className="text-white/70 text-lg md:text-xl leading-relaxed mb-10 max-w-xl">
             The Diluv Khutugtu Foundation is restoring a historic Soviet-era theater in
-            Uliastai into a vibrant Cultural Creative and Community Exchange Center —
+            Uliastai into a vibrant Cultural Creative and Community Exchange Center,
             preserving Mongolian heritage, empowering youth, and revitalizing community
             life for generations to come.
           </p>
@@ -74,7 +74,7 @@ export default function Hero() {
 
           <div className="flex flex-wrap gap-4">
             <a
-              href="https://www.paypal.com/US/fundraiser/charity/4897134"
+              href="https://dhf.mn/give-donor/"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary"
@@ -87,7 +87,7 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* Right — quote card */}
+        {/* Right: quote card */}
         <div className="hidden lg:block">
           <div className="relative">
             {/* Decorative frame */}

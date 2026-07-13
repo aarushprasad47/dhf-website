@@ -33,17 +33,14 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-6 md:px-12 flex items-center justify-between h-20">
         {/* Logo */}
         <a href="/" className="flex items-center gap-3 group">
-          <div className="w-10 h-10 border-2 border-gold-500 flex items-center justify-center shrink-0">
-            <span className="text-gold-500 font-display font-bold text-sm leading-none">
-              DHF
-            </span>
-          </div>
+          <img
+            src="/logo-square.png"
+            alt="Diluv Khutugtu Foundation logo"
+            className="w-10 h-10 shrink-0 object-contain"
+          />
           <div className="hidden sm:block">
             <p className="text-white font-display text-sm font-semibold leading-tight">
               Uliastai Cultural Center
-            </p>
-            <p className="text-gold-400 text-xs tracking-widest uppercase font-light">
-              A Diluv Khutugtu Foundation Campaign
             </p>
           </div>
         </a>
@@ -64,7 +61,7 @@ export default function Navigation() {
             </a>
           ))}
           <a
-            href="https://www.paypal.com/US/fundraiser/charity/4897134"
+            href="https://dhf.mn/give-donor/"
             target="_blank"
             rel="noopener noreferrer"
             className="ml-4 bg-gold-500 text-navy-950 text-xs font-bold uppercase tracking-widest px-6 py-2.5 hover:bg-gold-400 transition-colors duration-200"
@@ -113,7 +110,7 @@ export default function Navigation() {
             </a>
           ))}
           <a
-            href="https://www.paypal.com/US/fundraiser/charity/4897134"
+            href="https://dhf.mn/give-donor/"
             target="_blank"
             rel="noopener noreferrer"
             onClick={() => setMenuOpen(false)}

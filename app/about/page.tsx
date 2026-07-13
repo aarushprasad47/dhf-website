@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 export const metadata = {
   title: "About the Foundation | Diluv Khutugtu Foundation",
   description:
-    "Learn about the Diluv Khutugtu Foundation (DHF) — its mission, programs, partners, and the legacy of Diluwa Khutugtu Jamsrangjab and Telo Tulku Rinpoche.",
+    "Learn about the Diluv Khutugtu Foundation (DHF): its mission, programs, partners, and the legacy of Diluwa Khutugtu Jamsrangjab and Telo Tulku Rinpoche.",
 };
 
 export default function AboutPage() {
@@ -42,7 +42,7 @@ export default function AboutPage() {
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-white font-semibold text-sm border-b-2 border-gold-500 pb-1 hover:text-gold-300 transition-colors"
           >
-            Visit the Foundation's main site — dhf.mn
+            Visit the Foundation's main site: dhf.mn
             <span className="text-gold-500">→</span>
           </a>
         </div>
@@ -56,7 +56,7 @@ export default function AboutPage() {
               <h3 className="font-display text-2xl text-navy-900 mb-4">Our Mission</h3>
               <p className="section-body mb-6">
                 DHF promotes knowledge grounded in Buddhist wisdom and informed by
-                research in contemplative sciences — translating the timeless value
+                research in contemplative sciences, translating the timeless value
                 of compassion into modern frameworks that empower citizens to live
                 with clarity and purpose.
               </p>
@@ -70,7 +70,7 @@ export default function AboutPage() {
               <h3 className="font-display text-2xl text-navy-900 mb-4">Our Vision</h3>
               <p className="section-body mb-6">
                 We envision a Mongolia where communities flourish through strong
-                institutions, shared spaces, and living cultural traditions — where
+                institutions, shared spaces, and living cultural traditions, where
                 the wisdom of the past is an active resource for the future, not
                 merely a memory.
               </p>
@@ -170,7 +170,7 @@ export default function AboutPage() {
               </p>
               <p className="text-white/70 leading-relaxed mb-5">
                 As communist repression intensified in Mongolia, he chose exile rather
-                than compromise his principles — safeguarding a spiritual tradition
+                than compromise his principles, safeguarding a spiritual tradition
                 under threat while continuing to support Buddhist communities
                 internationally.
               </p>
@@ -215,7 +215,7 @@ export default function AboutPage() {
                 strong institutions, educational opportunities, and shared spaces
                 where culture and knowledge can be transmitted across generations.
                 The Cultural Center in Uliastai emerges from this same enduring
-                vision — inspired by successful models of cultural renewal such as
+                vision, inspired by successful models of cultural renewal such as
                 the Library of Tibetan Works and Archives and the Norbulingka
                 Institute in Dharamsala.
               </p>
@@ -229,7 +229,7 @@ export default function AboutPage() {
                   becomes a living force for the future."
                 </p>
                 <p className="text-gold-400 text-xs uppercase tracking-wide mt-3 font-semibold">
-                  — Telo Tulku Rinpoche
+                  Telo Tulku Rinpoche
                 </p>
               </div>
             </div>
@@ -245,7 +245,7 @@ export default function AboutPage() {
           </h3>
           <p className="section-body max-w-2xl mx-auto mb-10">
             The Cultural Creative and Community Exchange Center is DHF's current
-            flagship initiative — a $2.6M restoration campaign to transform a
+            flagship initiative, a $2.6M restoration campaign to transform a
             historic theater into a lasting resource for education, culture, and
             community life.
           </p>

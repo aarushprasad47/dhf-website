@@ -20,6 +20,18 @@ export default function Project() {
           </p>
         </div>
 
+        {/* Regional landscape */}
+        <div className="mb-16 relative">
+          <img
+            src="/zavkhan-landscape.jpg"
+            alt="Landscape of Zavkhan Province, Mongolia, with a mountainside monument and yak herd on the grassland"
+            className="w-full h-[320px] md:h-[420px] object-cover"
+          />
+          <p className="absolute bottom-4 right-4 text-white/80 text-xs uppercase tracking-widest bg-navy-950/60 px-3 py-1">
+            Zavkhan Province, Mongolia
+          </p>
+        </div>
+
         {/* Crisis + strengths */}
         <div className="grid lg:grid-cols-3 gap-8 mb-20">
           <div className="lg:col-span-2 bg-[#faf7f2] p-10">
@@ -27,23 +39,16 @@ export default function Project() {
               Growing Pressure, Enduring Strength
             </h3>
             <p className="section-body mb-4">
-              Young people make up a significant portion of the population and
-              increasingly seek pathways to education, skills development, and
-              meaningful employment. At the same time, many nomadic and herding
-              families continue to sustain livelihoods rooted in seasonal movement,
-              ecological knowledge, and intergenerational learning.
-            </p>
-            <p className="section-body mb-4">
-              These communities face growing pressures — youth outmigration, limited
-              rural infrastructure, reduced access to structured learning opportunities,
-              and the gradual weakening of spaces where cultural knowledge can be
-              shared across generations.
+              Young people increasingly seek education and meaningful employment, while
+              nomadic and herding families continue to sustain livelihoods rooted in
+              seasonal movement and intergenerational learning. Youth outmigration,
+              limited rural infrastructure, and the gradual weakening of spaces for
+              shared cultural knowledge put both ways of life under growing pressure.
             </p>
             <p className="section-body">
-              Yet the region's greatest strengths remain intact: young people eager to
-              learn and contribute, nomadic communities preserving invaluable cultural,
-              artistic, and ecological knowledge, and elders carrying traditions shaped
-              by generations of lived experience.{" "}
+              Yet the region's greatest strengths remain intact: eager young people,
+              nomadic communities preserving invaluable cultural and ecological
+              knowledge, and elders carrying traditions forward.{" "}
               <strong>
                 The challenge is not the absence of culture or community, but the need
                 for places where knowledge, skills, and traditions can be actively

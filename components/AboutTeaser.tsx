@@ -4,9 +4,6 @@ export default function AboutTeaser() {
       <div className="max-w-7xl mx-auto section-padding">
         <div className="flex flex-col lg:flex-row lg:items-center gap-8 lg:gap-16">
           <div className="lg:flex-1">
-            <p className="text-gold-400 text-xs font-semibold uppercase tracking-[0.2em] mb-4">
-              A Campaign of the Diluv Khutugtu Foundation
-            </p>
             <p className="text-white/70 text-base md:text-lg leading-relaxed max-w-2xl">
               This campaign is led by the Diluv Khutugtu Foundation (DHF), guided by
               the vision of Telo Tulku Rinpoche, the current incarnation of Diluwa

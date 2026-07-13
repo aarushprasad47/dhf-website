@@ -101,7 +101,7 @@ export default function Budget() {
           <p className="section-body mb-8 max-w-3xl">
             Rather than waiting for the full project budget to be raised, the initial
             $700,000 milestone focuses on stabilizing the building, restoring essential
-            systems, and opening usable spaces for early programming — giving donors a
+            systems, and opening usable spaces for early programming, giving donors a
             concrete first step toward reopening a historic public building.
           </p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-4">

@@ -61,7 +61,7 @@ export default function Programs() {
             Program Areas
           </h2>
           <p className="section-body">
-            The center's work is organized around three interconnected pillars — each
+            The center's work is organized around three interconnected pillars, each
             designed to serve diverse community members, from nomadic herders and elders
             to young students and working-age adults.
           </p>
@@ -117,7 +117,7 @@ export default function Programs() {
             <p className="text-white/70 leading-relaxed">
               Long-term operations are designed to be supported through program fees,
               educational offerings, cultural exchange programs, and community-based
-              service exchange — ensuring the center remains self-sustaining and
+              service exchange, ensuring the center remains self-sustaining and
               accessible to all.
             </p>
           </div>

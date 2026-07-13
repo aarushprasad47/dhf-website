@@ -29,7 +29,7 @@ export default function Perspectives() {
           </p>
           <div className="w-16 h-0.5 bg-gold-500 mb-8" />
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl text-white leading-tight">
-            Why This Matters — In Their Own Words
+            Why This Matters: In Their Own Words
           </h2>
         </div>
 

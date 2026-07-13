@@ -18,9 +18,6 @@ export default function Footer() {
                 <p className="text-white font-display font-semibold leading-tight">
                   Uliastai Cultural Center Campaign
                 </p>
-                <p className="text-gold-400 text-xs tracking-widest uppercase mt-0.5">
-                  A Diluv Khutugtu Foundation Initiative
-                </p>
               </div>
             </div>
             <p className="text-white/50 text-sm leading-relaxed max-w-sm">
@@ -68,10 +65,13 @@ export default function Footer() {
                 { href: "/#impact", label: "Impact Goals" },
                 { href: "/#give", label: "How to Give" },
                 { href: "/#contact", label: "Contact Us" },
+                { href: "/donor-prospectus.pdf", label: "Donor Prospectus (PDF)" },
               ].map((link) => (
                 <li key={link.href}>
                   <a
                     href={link.href}
+                    target={link.href.endsWith(".pdf") ? "_blank" : undefined}
+                    rel={link.href.endsWith(".pdf") ? "noopener noreferrer" : undefined}
                     className="text-white/50 text-sm hover:text-white transition-colors"
                   >
                     {link.label}

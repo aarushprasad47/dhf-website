@@ -3,8 +3,8 @@ const links = [
   { href: "#connects", label: "A Place That Connects" },
   { href: "#concept", label: "The Design" },
   { href: "#programs", label: "Programs" },
-  { href: "#budget", label: "Budget & Timeline" },
   { href: "#impact", label: "Impact" },
+  { href: "#budget", label: "Budget & Timeline" },
   { href: "#give", label: "How to Give" },
 ];
 

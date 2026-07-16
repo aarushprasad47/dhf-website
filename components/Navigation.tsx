@@ -6,8 +6,8 @@ const navLinks = [
   { href: "/about", label: "About DHF" },
   { href: "/#need", label: "The Project" },
   { href: "/#programs", label: "Programs" },
-  { href: "/#budget", label: "Budget" },
   { href: "/#impact", label: "Impact" },
+  { href: "/#budget", label: "Budget" },
   { href: "/#give", label: "Give" },
   { href: "/#contact", label: "Contact" },
 ];

@@ -104,30 +104,6 @@ export default function Project() {
             ))}
           </div>
         </div>
-
-        {/* Legacy beyond borders */}
-        <div>
-          <h3 className="font-display text-2xl md:text-3xl text-navy-900 mb-4">
-            A Legacy Beyond Borders
-          </h3>
-          <p className="section-body mb-10 max-w-3xl">
-            Although rooted in Uliastai, this initiative speaks to a broader global
-            challenge: how living cultural traditions survive and thrive in a rapidly
-            changing world. Potential supporters include:
-          </p>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {[
-              "Mongolian communities abroad",
-              "The global Tibetan Buddhist community",
-              "Supporters of cultural heritage and education",
-              "Individuals committed to sustaining endangered knowledge systems",
-            ].map((item) => (
-              <div key={item} className="border border-navy-100 p-6 hover:border-gold-400 transition-colors duration-300">
-                <p className="text-navy-700 text-sm leading-relaxed">{item}</p>
-              </div>
-            ))}
-          </div>
-        </div>
       </div>
     </section>
   );

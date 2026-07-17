@@ -16,7 +16,7 @@ export default function Footer() {
               </div>
               <div>
                 <p className="text-white font-display font-semibold leading-tight">
-                  Uliastai Cultural Center Campaign
+                  Mongolian Heritage Fund
                 </p>
               </div>
             </div>
@@ -109,8 +109,8 @@ export default function Footer() {
             © {currentYear} Diluv Khutugtu Foundation. All rights reserved.
           </p>
           <p className="text-white/20 text-xs text-center md:text-right">
-            U.S. tax-deductible gifts available through the Kalmyk Heritage Center,
-            Brooklyn, New York · 501(c)(3) partner
+            U.S. tax-deductible gifts available through the Mongolian Heritage Fund ·
+            501(c)(3)
           </p>
         </div>
       </div>

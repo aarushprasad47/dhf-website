@@ -40,7 +40,7 @@ export default function Navigation() {
           />
           <div className="hidden sm:block">
             <p className="text-white font-display text-sm font-semibold leading-tight">
-              Uliastai Cultural Center
+              Mongolian Heritage Fund
             </p>
           </div>
         </a>

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Uliastai Cultural Center Campaign | A Diluv Khutugtu Foundation Initiative",
+  title: "Mongolian Heritage Fund | A Diluv Khutugtu Foundation Initiative",
   description:
     "A $2.6M campaign to restore a historic theater in Uliastai, Zavkhan Province, Mongolia into a Cultural Creative and Community Exchange Center, led by the Diluv Khutugtu Foundation (DHF).",
   keywords: [
@@ -20,10 +20,10 @@ export const metadata: Metadata = {
     "fundraising campaign",
   ],
   openGraph: {
-    title: "Uliastai Cultural Center Campaign",
+    title: "Mongolian Heritage Fund",
     description:
       "A Diluv Khutugtu Foundation campaign to restore a historic theater in Uliastai into a living center for culture, education, and community.",
-    siteName: "Uliastai Cultural Center Campaign",
+    siteName: "Mongolian Heritage Fund",
     locale: "en_US",
     type: "website",
   },

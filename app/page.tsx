@@ -1,6 +1,5 @@
 import Navigation from "@/components/Navigation";
 import Hero from "@/components/Hero";
-import QuickNav from "@/components/QuickNav";
 import AboutTeaser from "@/components/AboutTeaser";
 import Project from "@/components/Project";
 import Perspectives from "@/components/Perspectives";
@@ -18,7 +17,6 @@ export default function Home() {
     <main>
       <Navigation />
       <Hero />
-      <QuickNav />
       <AboutTeaser />
       <Project />
       <Perspectives />

@@ -1,6 +1,5 @@
 import Navigation from "@/components/Navigation";
 import Hero from "@/components/Hero";
-import AboutTeaser from "@/components/AboutTeaser";
 import Project from "@/components/Project";
 import Perspectives from "@/components/Perspectives";
 import Connects from "@/components/Connects";
@@ -17,7 +16,6 @@ export default function Home() {
     <main>
       <Navigation />
       <Hero />
-      <AboutTeaser />
       <Project />
       <Perspectives />
       <Connects />

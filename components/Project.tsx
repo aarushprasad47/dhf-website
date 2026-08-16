@@ -25,7 +25,7 @@ export default function Project() {
           <img
             src="/old-theatre.png"
             alt="The historic Soviet-era theater in Uliastai, Mongolia, being restored into the Cultural Creative and Community Exchange Center"
-            className="w-full h-[320px] md:h-[420px] object-cover"
+            className="w-full h-[400px] md:h-[520px] object-cover object-top"
           />
           <p className="absolute bottom-4 right-4 text-white/80 text-xs uppercase tracking-widest bg-navy-950/60 px-3 py-1">
             The Historic Theater, Uliastai

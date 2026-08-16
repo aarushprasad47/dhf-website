@@ -3,8 +3,8 @@ export default function Hero() {
     <section className="relative min-h-screen flex items-center overflow-hidden bg-navy-950">
       {/* Background photo */}
       <img
-        src="/old-theatre.png"
-        alt="The historic Soviet-era theater in Uliastai, Mongolia, being restored into the Cultural Creative and Community Exchange Center"
+        src="/zavkhan-landscape.jpg"
+        alt="Landscape of Zavkhan Province, Mongolia, with a mountainside monument and yak herd on the grassland"
         className="absolute inset-0 w-full h-full object-cover opacity-30"
       />
 

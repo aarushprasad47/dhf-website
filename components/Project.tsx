@@ -23,12 +23,12 @@ export default function Project() {
         {/* Regional landscape */}
         <div className="mb-16 relative">
           <img
-            src="/zavkhan-landscape.jpg"
-            alt="Landscape of Zavkhan Province, Mongolia, with a mountainside monument and yak herd on the grassland"
+            src="/old-theatre.png"
+            alt="The historic Soviet-era theater in Uliastai, Mongolia, being restored into the Cultural Creative and Community Exchange Center"
             className="w-full h-[320px] md:h-[420px] object-cover"
           />
           <p className="absolute bottom-4 right-4 text-white/80 text-xs uppercase tracking-widest bg-navy-950/60 px-3 py-1">
-            Zavkhan Province, Mongolia
+            The Historic Theater, Uliastai
           </p>
         </div>
 

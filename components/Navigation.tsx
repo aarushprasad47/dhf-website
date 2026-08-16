@@ -8,7 +8,7 @@ const navLinks = [
   { href: "/#programs", label: "Programs" },
   { href: "/#impact", label: "Impact" },
   { href: "/#budget", label: "Budget" },
-  { href: "/#give", label: "Give" },
+  { href: "/donor-prospectus.pdf", label: "Proposal" },
   { href: "/#contact", label: "Contact" },
 ];
 
@@ -51,8 +51,10 @@ export default function Navigation() {
             <a
               key={link.href}
               href={link.href}
+              target={link.href.endsWith(".pdf") ? "_blank" : undefined}
+              rel={link.href.endsWith(".pdf") ? "noopener noreferrer" : undefined}
               className={`text-xs font-semibold uppercase tracking-widest transition-colors duration-200 ${
-                link.href === "/#give"
+                link.href.endsWith(".pdf")
                   ? "text-gold-400 hover:text-gold-300"
                   : "text-white/70 hover:text-white"
               }`}
@@ -103,8 +105,14 @@ export default function Navigation() {
             <a
               key={link.href}
               href={link.href}
+              target={link.href.endsWith(".pdf") ? "_blank" : undefined}
+              rel={link.href.endsWith(".pdf") ? "noopener noreferrer" : undefined}
               onClick={() => setMenuOpen(false)}
-              className="text-white/80 hover:text-white text-sm font-semibold uppercase tracking-widest py-2 border-b border-white/10"
+              className={`text-sm font-semibold uppercase tracking-widest py-2 border-b border-white/10 ${
+                link.href.endsWith(".pdf")
+                  ? "text-gold-400 hover:text-gold-300"
+                  : "text-white/80 hover:text-white"
+              }`}
             >
               {link.label}
             </a>
